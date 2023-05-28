@@ -1,2 +1,2 @@
-# SKY React Practice
+# SKY React Practise
 ---
