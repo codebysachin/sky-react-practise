@@ -5,7 +5,7 @@ function Todo() {
   const [taskList, setTaskList] = useState([]);
   const [task, setTask] = useState("");
 
-  const handleAdd = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const newTask = {
       id: taskList.length ? taskList[taskList.length - 1].id + 1 : 1,
@@ -31,7 +31,7 @@ function Todo() {
 
   return (
     <>
-      <form onSubmit={handleAdd}>
+      <form onSubmit={handleSubmit}>
         <input
           autoFocus
           type="text"
@@ -42,8 +42,8 @@ function Todo() {
         <button type="submit">Add</button>
         <TaskList
           taskList={taskList}
-          handleDelete={handleDelete}
-          handleCheck={handleCheck}
+          onDelete={handleDelete}
+          onCheck={handleCheck}
         />
       </form>
     </>
