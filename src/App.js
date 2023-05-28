@@ -1,10 +1,10 @@
 import './App.css';
-import Todo from './components/todo/Todo';
+import CountryCity from './components/dropdown/CountryCity';
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <CountryCity />
     </div>
   );
 }
