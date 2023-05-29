@@ -1,10 +1,10 @@
 import "./App.css";
-import Weather from "./components/weather/Weather";
+import Dashboard from './components/multiPage/Dashboard';
 
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <Dashboard/>
     </div>
   );
 }
