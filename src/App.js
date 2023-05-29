@@ -1,11 +1,14 @@
 import "./App.css";
-import Dashboard from './components/multiPage/Dashboard';
+import { AuthProvider } from "./components/authentication/AuthContext";
+import LoginForm from "./components/authentication/LoginForm";
+import ProtectedPage from "./components/authentication/ProtectedPage";
 
 function App() {
   return (
-    <div className="App">
-      <Dashboard/>
-    </div>
+    <AuthProvider>
+      <LoginForm />
+      <ProtectedPage />
+    </AuthProvider>
   );
 }
 
