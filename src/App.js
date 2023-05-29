@@ -1,10 +1,10 @@
 import './App.css';
-import CountryCity from './components/dropdown/CountryCity';
+import UserRegisteration from './components/registration/UserRegisteration';
 
 function App() {
   return (
     <div className="App">
-      <CountryCity />
+      <UserRegisteration />
     </div>
   );
 }
