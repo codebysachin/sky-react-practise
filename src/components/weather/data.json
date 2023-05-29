@@ -1,0 +1,23 @@
+{
+  "london": {
+    "temp": 19,
+    "feels_like": 16,
+    "temp_min": 14,
+    "temp_max": 21,
+    "location": "london"
+  },
+  "Seattle": {
+    "temp": 16,
+    "feels_like": 12,
+    "temp_min": 10,
+    "temp_max": 18,
+    "location": "Seattle"
+  },
+  "Newyork": {
+    "temp": 16,
+    "feels_like": 12,
+    "temp_min": 10,
+    "temp_max": 18,
+    "location": "Newyork"
+  }
+}
