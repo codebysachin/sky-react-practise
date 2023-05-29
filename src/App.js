@@ -1,10 +1,10 @@
-import './App.css';
-import UserRegisteration from './components/registration/UserRegisteration';
+import "./App.css";
+import Counter from "./components/counter/Counter";
 
 function App() {
   return (
     <div className="App">
-      <UserRegisteration />
+      <Counter />
     </div>
   );
 }
