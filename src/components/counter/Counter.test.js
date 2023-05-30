@@ -1,5 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import Counter from './Counter';
+import CounterClass from './CounterClass';
 
 describe('Counter Component Test',()=>{
     test('renders couter, increment, decrement, reset button', () => {
@@ -17,7 +18,7 @@ describe('Counter Component Test',()=>{
     });
 
     test('counter increment, decrement and reset correctly', () => {
-        render(<Counter/>);
+        render(<CounterClass/>);
         const incrementButton = screen.getByText('Increment');
         const decrementButton = screen.getByText('Decrement');
         const resetButton = screen.getByText('Reset');
